@@ -23,26 +23,26 @@ Aspects of Quality
 
 When talking about quality it helps to have a clear idea what we mean when we say software should be of high quality.
 
-*Performance
-    *load times
-    *animation/ui smoothness
-    *responsiveness to interactions
-*Stability
-    *consistency, is it the same experience every time I use the product
-    *limited downtime
-*Functionality
-    *does it do what we said it would
-    *does it do so ‘correctly’ (limited bugs)
-    *does it solve a problem
-*Usability
-    *is it simple, attractive, unobtrusive
-    *does it frustrate or annoy
-    *does it make sense
-    *does it do what the user wants and expects
+* Performance
+    * load times
+    * animation/ui smoothness
+    * responsiveness to interactions
+* Stability
+    * consistency, is it the same experience every time I use the product
+    * limited downtime
+* Functionality
+    * does it do what we said it would
+    * does it do so ‘correctly’ (limited bugs)
+    * does it solve a problem
+* Usability
+    * is it simple, attractive, unobtrusive
+    * does it frustrate or annoy
+    * does it make sense
+    * does it do what the user wants and expects
 
 These aspects involve everyone. You can lobby for other aspects that you find important, and please do, this list is by no means exhaustive.
 
-— - - -
+----
 
 Great, so we’re thinking about ways that we can deliver quality software beyond test runs and checklists, and what it means to do so, but there’s a bit of an issue.
 The Grand Quality Renaissance
@@ -53,20 +53,20 @@ In Cloud Services we have upwards of 20 projects that are somewhere between main
 
 What we’re talking about, really, is how can we do more with less, how can we be more effective with the people and resources that we have. We need to do work that is effective and applicable to either:
 
-*many projects at once (which can be hard to do for tests, unless there is a lot of crossover, but possible with things like infrastructure and build tools), or
-*can be reused by the same project each time a change comes up for release (much more realistic for testing).
+* many projects at once (which can be hard to do for tests, unless there is a lot of crossover, but possible with things like infrastructure and build tools), or
+* can be reused by the same project each time a change comes up for release (much more realistic for testing).
 
 Once we have that work in place, then we know that if we grow the team it is deliberate, not reactionary. Being in control is good!
 
 That doesn’t really mean anything concrete, so let’s put some goals in place give us something to work towards.
 
-    1. Improve 1:1 Person:Project effectiveness, scale without sacrificing quality
-    2. Implement quality measurement tooling and practices to track changes and improvements
-    3. Facilitate team scaling by producing work of ongoing value via automated tests and test infrastructure
-    4. Reduce deployment time/pain by automating build and release pipeline
-    5. Reduce communication overhead and back and forth between teams by shorten feedback loops
-    6. Increase confidence in releases through stability and results from our build/tools/test/infrastructure work
-    7. Reframe what quality means in cloud services through leadership and driving forward change
+1. Improve 1:1 Person:Project effectiveness, scale without sacrificing quality
+2. Implement quality measurement tooling and practices to track changes and improvements
+3. Facilitate team scaling by producing work of ongoing value via automated tests and test infrastructure
+4. Reduce deployment time/pain by automating build and release pipeline
+5. Reduce communication overhead and back and forth between teams by shorten feedback loops
+6. Increase confidence in releases through stability and results from our build/tools/test/infrastructure work
+7. Reframe what quality means in cloud services through leadership and driving forward change
 
 Achieving those goals means we as QA are more effective, but the side effects to the entire organization are numerous. We’ll see more transparency between teams, developers will receive feedback faster and be more confident in their work, they take control of their own builds and test runs removing back and forth communication delays, operations can one-click release to production with fewer concerns about late nights and rollbacks, more focus can be applied to upholding the aspects of quality by all rather than fighting fires, and ideally productivity, quality, and happiness go up (how do we gather some telemetry on that?).
 
