@@ -1,0 +1,73 @@
+---
+layout: post
+title:  "Welcome to Jekyll!"
+date:   2016-01-25 17:58:23
+categories: jekyll update
+---
+
+First Post! Actually a repost of something I wrote not long after joining Mozilla. You can find the original over on the [mozilla services blog](https://blog.mozilla.org/services/2015/03/24/the-changing-face-of-software-quality/).
+
+So.
+
+TL;DR
+
+QA as a function in software is and has been changing. It is less about validating changes and writing test plans and more about pushing quality forward through tools, automation, and process refinement. We must work to improve the QA phase (everything between “dev complete” and “ready for deployment”), and quality throughout the whole life-cycle. In doing so QA becomes a facilitator, an ambassador, a shepherd of code, providing simple, confident, painless ways of getting things out the door. We may become reliability engineers, production engineers, tools engineers, infrastructure engineers, and/or release engineers. In smaller teams you may be many of these things, in bigger ones they may be distinct roles. The line between QA and Ops may blur, as might the line between Dev and QA. Manual QA still plays a large role, but it is in addition to, not the standard. It is another tool in the toolbox.
+What is QA and Software Quality really?
+
+In my mind the purpose of QA is not merely to find bugs or validate changes before release, but to ensure that the product that our users receive is of high quality. That can mean many different things, and the number of bugs is definitely a part of it, but I think that is a simplification of the definition of software quality. QA is changing in many companies these days, and we’re making a big push this year in Mozilla’s Cloud Services team to redefine what QA and quality means.
+
+Quality software, to me, is about happy users. It is users who love and care about your product, users who will evangelize your product, and users that contribute feedback to make your product better. If you have those users, then you have a great product.
+
+As QA we don’t write code, we don’t run the servers, we don’t decide what to build nor how it should look, but we do make sure that all of those things are up to the standards that we all set for ourselves and our products. If our goal in software is to make our users happy then giving them a quality experience that solves a problem for them and makes their lives easier is how we achieve that goal. This is what software is all about, and is something that everyone strives for. Quality really is everyone’s concern. It should not be an afterthought and it shouldn’t fall solely on QA. It is a mindset that needs to be ingrained in engineers, product managers, designers, managers, and operations. It is a part of company culture.
+Aspects of Quality
+
+When talking about quality it helps to have a clear idea what we mean when we say software should be of high quality.
+
+    Performance
+        load times
+        animation/ui smoothness
+        responsiveness to interactions
+    Stability
+        consistency, is it the same experience every time I use the product
+        limited downtime
+    Functionality
+        does it do what we said it would
+        does it do so ‘correctly’ (limited bugs)
+        does it solve a problem
+    Usability
+        is it simple, attractive, unobtrusive
+        does it frustrate or annoy
+        does it make sense
+        does it do what the user wants and expects
+
+These aspects involve everyone. You can lobby for other aspects that you find important, and please do, this list is by no means exhaustive.
+
+—
+
+Great, so we’re thinking about ways that we can deliver quality software beyond test runs and checklists, and what it means to do so, but there’s a bit of an issue.
+The Grand Quality Renaissance
+
+A lot of what we do in traditional QA is 1:1 interactions with projects when there are changes ready to be tested for release. We check functionality, we check changes, we check for regression, we check for performance and load. This is ‘fine’, by most standards. It gets the job done, the product is validated, and it goes for release. All is good… Except that it doesn’t scale, the work you do doesn’t provide ongoing value to the team, or the company. As soon as you complete your testing that work is ‘lost’ and then you start from scratch with the next release.
+
+In Cloud Services we have upwards of 20 projects that are somewhere between maintenance mode, active, or in planning. We simply don’t have the head count (5 currently) to manage all of those projects simultaneously, and even if we did, plans change. We have to react to the ongoing changes in the team, the company, and the world (well, at least as it relates to our products). Sometimes we won’t be able to react because 1:1 interactions aren’t flexible enough. Okay, simple answer: lets grow the team. That may work at times, but it also takes a lot of time, a lot of money, and even worse you might put yourself in a position where you have the head count to manage 20 projects, but suddenly there’s only 10 projects that we care about going forward and then we have to let some people go. That’s not fair to anyone – we need a better solution.
+
+What we’re talking about, really, is how can we do more with less, how can we be more effective with the people and resources that we have. We need to do work that is effective and applicable to either:
+
+    many projects at once (which can be hard to do for tests, unless there is a lot of crossover, but possible with things like infrastructure and build tools), or
+    can be reused by the same project each time a change comes up for release (much more realistic for testing).
+
+Once we have that work in place, then we know that if we grow the team it is deliberate, not reactionary. Being in control is good!
+
+That doesn’t really mean anything concrete, so let’s put some goals in place give us something to work towards.
+
+    Improve 1:1 Person:Project effectiveness, scale without sacrificing quality
+    Implement quality measurement tooling and practices to track changes and improvements
+    Facilitate team scaling by producing work of ongoing value via automated tests and test infrastructure
+    Reduce deployment time/pain by automating build and release pipeline
+    Reduce communication overhead and back and forth between teams by shorten feedback loops
+    Increase confidence in releases through stability and results from our build/tools/test/infrastructure work
+    Reframe what quality means in cloud services through leadership and driving forward change
+
+Achieving those goals means we as QA are more effective, but the side effects to the entire organization are numerous. We’ll see more transparency between teams, developers will receive feedback faster and be more confident in their work, they take control of their own builds and test runs removing back and forth communication delays, operations can one-click release to production with fewer concerns about late nights and rollbacks, more focus can be applied to upholding the aspects of quality by all rather than fighting fires, and ideally productivity, quality, and happiness go up (how do we gather some telemetry on that?).
+
+We’re putting together the concrete plan for what this will look like at Mozilla’s Cloud Services. It will take a while to achieve these goals, and there will undoubtedly be issues along the way, but the end result is much more stable, reliable, and consistent. That last one is particularly important. If we’re consistent then we can measure ourselves, which leads to us being predictable. Being predictable, statistically speaking, means our decision making is much more informed. At a higher level, our focus shifts to making the best product we can, delivering it quickly, and iterating on feedback. We learn from our users and integrate their feedback into our products, without builds or bugs or tools or process getting in the way. We make users happy. When it comes down to it, that’s really what this is all about – that’s the utopia. Let’s build our utopia!

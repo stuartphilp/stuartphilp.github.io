@@ -4,8 +4,8 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+I'm currently managing a large Quality Engineering team at [Mozilla](https://www.mozilla.org). Prior to that I was at a Toronto start up called [Polar](https://www.polar.me) doing web dev, devops, and qa work.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+You can find me on github at [github.com/stuartphilp](https://github.com/stuartphilp)
+Or twitter at [twitter.com/stuartphilp](https://twitter.com/stuartphilp)
+Or linkedin at [linkedin.com/in/stuartphilp](https://www.linkedin.com/in/stuartphilp)
