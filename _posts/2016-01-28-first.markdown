@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2016-01-25 17:58:23
-categories: jekyll update
+title:  "First Post!"
+date:   2016-01-28 10:35
+categories: qa quality
 ---
 
 First Post! Actually a repost of something I wrote not long after joining Mozilla. You can find the original over on the [mozilla services blog](https://blog.mozilla.org/services/2015/03/24/the-changing-face-of-software-quality/).
