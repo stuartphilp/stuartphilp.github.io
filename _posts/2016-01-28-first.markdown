@@ -7,9 +7,7 @@ categories: qa quality
 
 First Post! Actually a repost of something I wrote not long after joining Mozilla. You can find the original over on the [mozilla services blog](https://blog.mozilla.org/services/2015/03/24/the-changing-face-of-software-quality/).
 
-So.
-
-TL;DR
+So, TL;DR
 
 QA as a function in software is and has been changing. It is less about validating changes and writing test plans and more about pushing quality forward through tools, automation, and process refinement. We must work to improve the QA phase (everything between “dev complete” and “ready for deployment”), and quality throughout the whole life-cycle. In doing so QA becomes a facilitator, an ambassador, a shepherd of code, providing simple, confident, painless ways of getting things out the door. We may become reliability engineers, production engineers, tools engineers, infrastructure engineers, and/or release engineers. In smaller teams you may be many of these things, in bigger ones they may be distinct roles. The line between QA and Ops may blur, as might the line between Dev and QA. Manual QA still plays a large role, but it is in addition to, not the standard. It is another tool in the toolbox.
 What is QA and Software Quality really?
