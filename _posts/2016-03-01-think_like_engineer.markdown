@@ -19,9 +19,9 @@ There's also seemingly a few milestone as you manage a team, where you find your
 
 If we ballpark the milestones, they are roughly:
 
-0-8 employees - Partly hands-on. You still have time to code and learn and solve technical problems.
-8-15 - Full-time Manager. Your time is consumed by meetings, planning, deadlines, prioritizing, and making adjustments.
-15+ - With one or more supervisors/managers, you might find you have time to be partly hands-on, if you want to be.
+* 0-8 employees - Partly hands-on. You still have time to code and learn and solve technical problems.
+* 8-15 - Full-time Manager. Your time is consumed by meetings, planning, deadlines, prioritizing, and making adjustments.
+* 15+ - With one or more supervisors/managers, you might find you have time to be partly hands-on, if you want to be.
 
 +/- a few on either end of the ranges depending on your personality, management style, work habits, employees, team leads, etc. There's probably another few levels where you reach say 30+ that it's just impossible to be hands on in any significant way, but I haven't been in front of that size of a team so I couldn't say.
 
