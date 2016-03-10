@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Advancing past senior engineer"
-date:   2016-02-01 10:35
+date:   2016-02-01 12:00
 categories: management advancement career
 ---
 
