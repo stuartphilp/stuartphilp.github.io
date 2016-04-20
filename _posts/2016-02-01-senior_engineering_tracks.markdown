@@ -2,11 +2,12 @@
 layout: post
 title:  "Advancing past senior engineer"
 date:   2016-02-01 12:00
+author: Stuart Philp
 categories: management advancement career
+summary: "Coming out of the 'so you want to be a more senior engineer' panel at <a href='https://wiki.mozilla.org/All_Hands/2015_Orlando'>Mozlando</a>, a few people have discussed with me what it would mean for them to take the next step in their careers, how do they do that and what are the options in front of them to continue to grow. There’s a lot of good info about this floating around our internal wiki’s, but those weren't geared to my team in particular, so it seemed like a bit of a blog post was in order."
 ---
 
 # Intro #
-Coming out of the “so you want to be a more senior engineer” panel at [Mozlando](https://wiki.mozilla.org/All_Hands/2015_Orlando), a few people have discussed with me what it would mean for them to take the next step in their careers, how do they do that and what are the options in front of them to continue to grow. There’s a lot of good info about this floating around our internal wiki’s, but those weren't geared to my team in particular, so it seemed like a bit of a blog post was in order.
 
 First off, not everyone wants to be a more senior engineer. In fact, being an IC3 - a senior engineer in Mozilla terms - is where most people are at today, and will be in the future. It’s a good spot to be between the “not knowing what you’re doing”-ness of a more junior engineer, and the “I’m responsible for the whole house of cards”-ness of a more senior engineer (hyperbole, for sure. not all software is a house of cards, but it paints a picture).
 

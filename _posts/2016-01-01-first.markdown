@@ -2,10 +2,10 @@
 layout: post
 title:  "The changing face of software quality"
 date:   2016-01-01 12:00
+author: Stuart Philp
 categories: qa quality
+summary: "First Post! Actually a repost of something I wrote not long after joining Mozilla. You can find the original over on the <a href='https://blog.mozilla.org/services/2015/03/24/the-changing-face-of-software-quality/'>mozilla services blog</a>."
 ---
-
-First Post! Actually a repost of something I wrote not long after joining Mozilla. You can find the original over on the [mozilla services blog](https://blog.mozilla.org/services/2015/03/24/the-changing-face-of-software-quality/).
 
 So, TL;DR
 

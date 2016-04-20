@@ -1,11 +1,31 @@
 /**
+* Mixins
+*/
+
+@mixin flexbox() {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: box;
+}
+
+@mixin box-orient($values) {
+  -webkit-box-orient: $values;
+  -moz-box-orient:  $values;
+  -ms-box-orient:  $values;
+  box-orient:  $values;
+}
+
+
+/**
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
+    border-top: 10px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
-
+    background: white;
     // Positioning context for the mobile navigation icon
     position: relative;
 }
@@ -92,8 +112,14 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
+    border-right: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
+    width: 25%;
+    min-width: 200px;
+    @include media-query($on-palm) {
+        width: 100%;
+        border-top: 1px solid $grey-color-light;
+    }
 }
 
 .footer-heading {
@@ -112,6 +138,8 @@
     color: $grey-color;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
+    @include flexbox();
+    @include box-orient(vertical);
 }
 
 .footer-col {
@@ -163,6 +191,12 @@
  */
 .page-content {
     padding: $spacing-unit 0;
+    float: right;
+    width: 75%;
+    @include media-query($on-palm) {
+        float: none;
+        width: 100%;
+    }
 }
 
 .page-heading {
@@ -174,13 +208,15 @@
     list-style: none;
 
     > li {
-        margin-bottom: $spacing-unit;
+        margin-bottom: 10px;
+        border-bottom: 1px solid $grey-color-light;
     }
 }
 
 .post-meta {
     font-size: $small-font-size;
     color: $grey-color;
+    margin-bottom: 10px;
 }
 
 .post-link {

@@ -2,7 +2,9 @@
 layout: post
 title:  "Finding your first software gig"
 date:   2016-04-01 12:00
+author: Stuart Philp
 categories: career junior
+summary: "Landing your first job out of university is hard, and sometimes it's not what you expect. Here's my attempt to gather some thoughts, tips and advice that hopefully helps."
 ---
 
 Going into university as a computer science major you hear a lot about the crazy potential for jobs, compensation, perks and all the rest of it that surrounds tech, especially in Silcon Valley. Looking back, the idea of a pool table and free snacks really appealed to me when I was all about playing video games and starving as a student. Once you're actually out working, and you can afford lunches and traveling and buying a house and saving for retirement and all sorts of other things, those little perks start to mean less and less and you start to look deeper at what the company, project, or team your working with is all about.
