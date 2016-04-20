@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title:  "Finding your first software gig"
 date:   2016-04-01 12:00
 categories: career junior
