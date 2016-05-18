@@ -4,9 +4,8 @@ title:  "What I look for in a Quality Engineer"
 date:   2016-05-01 12:00
 author: Stuart Philp
 categories: quality engineering hiring
+summary: "Job postings, hiring, interviews, team dynamics, fit, gaps, it's all pretty complicated. Thinking about your next hire, what does ideal candidate look like and the kind of skills and traits someone should have can be hard to nail down into a simple checklist for evaluation."
 ---
-
-Job postings, hiring, interviews, team dynamics, fit, gaps, it's all pretty complicated. Thinking about your next hire, what does ideal candidate look like and the kind of skills and traits someone should have can be hard to nail down into a simple checklist for evaluation.
 
 We (software hiring managers in general) have an interview anti-pattern that revolves around canned questions, gimmicky coding exercises, white boarding, etc. It's not typically effective, it's not realistic, and it's not useful for evaluating a persons potential.
 
