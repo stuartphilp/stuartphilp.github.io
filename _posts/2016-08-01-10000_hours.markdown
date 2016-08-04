@@ -1,0 +1,42 @@
+---
+layout: post
+title:  "On Gladwell's 10000 hours"
+date:   2016-08-01 12:00
+author: Stuart Philp
+categories: expertise career skill
+summary: "There's an old adage I'm sure most people have heard of, if you work at a skill for 10,000 hours you'll become an expert in that skill. Sort of."
+---
+
+How does one define what an expert is? Or what good enough is? Assuming you don't take this to mean you'll be the best in the world or even top 10%, and instead take it as "you'll be reasonably proficient enough to be considered having more skill than most", most being the bottom 50%, I guess maybe that's realistic. Proficient is probably a better word anyway.
+
+Anyway, I started thinking about it, thinking about my career and those that I've watched, and I'm not so sure it holds true for software. The point here isn't to debate the 10k hour idea but rather attempt to illustrate how long it takes to really be proficient in the software development world.
+
+First off, not all skills are created equal. 10k hours of guitar playing ought to be enough make you proficient and perhaps confident enough to play for a crowd, but 10k hours to be a brain surgeon is probably a grossly under estimating the knowledge and skill that just gets you to the point where you have a knife in your hand, let alone successfully performing multiple surgeries.
+
+Second, just looking at my career, I've had training in the form of education, internships, full time work, and whatever personal time I've put in (hard to quantify, but I'll take a stab at it shortly). I don't think I felt truly capable doing my job until I was working for at least 3 years full time, I'd argue it was more like 5 to actually feel confident, and even today the dreaded imposter-syndrome-monster still strikes occasionally.
+
+I had 4 years of education, or 8 semesters. I distinctly remember my school quoting our time as 22 hours of class with about 20 hours for homework and studying. So lets call each semester a 42-hour week. I believe semesters are about 13 weeks long, plus exam weeks. So we have 42*13*8 and then say 2 more weeks of studying for exams for the year, or 42*15*8. We're already at 5040 hours, just from school.
+
+Perhaps you could take this to mean education only gets you half way there, the other half is the hard work that comes after - a reality check for those expecting to be handed cushy jobs on graduation, but also speaks to the challenge of finding a job in the first place when you're only half prepared to do so. But I digress...
+
+Part of my education in computer science, I took co-op semesters (Canadian-ized internships), paid work where I could learn to grow and use the skills I had been taught in class. I had 3 of those during my program, each over the summer months for about 12 weeks (40*12*3). Add another 1440 hours.
+
+I also managed to work part-time in my field (lucky me) prior to graduating, most other students we're at coffee shops, so I know this isn't necessarily the norm but for me it is definitely a part of my total education hours. 20 hours a week for 48 weeks that year, so plus 960.
+
+So I'm graduating at 5040 + 1440 + 960 = 7440 hours, 3/4 of the way to being an expert... ostensibly. Or working back the other way now, 10000 - 7440 = 2560 remaining hours.
+
+I managed to find a job immediately after graduating, so I didn't have much of a lapse (again, lucky me), I would start full time as a developer on January 4th. Working about 40 hours a week for 48 weeks (company wide closures + personal time off) meant I would gain 1920 hours in the first year. 2/3 of the way through our remaining hour budget. Holy crap, I'd be an expert by the following May 1st, ~16 months after graduating. Yeah right.
+
+I think honestly, the first 3 years we're the hardest, learning a LOT, feeling inadequate, unprepared, and not wanting to put anything out there for others to see for fear of being judged. Those 3 years were 1920 * 3 = 5760 hours of mental exercise and torment. After that 3 year mark though, it started to feel easier, things we're clicking much better, code was flying out of me, I had no hangups about suggesting solutions or reviewing others work. I still wouldn't call myself an expert, but maybe proficient was appropriate at that time.
+
+Around 5 years was the real magic moment, where I felt confident enough that I could take chances and force myself into areas of uncertainty. The willingness to improvise when eyes are on you is perhaps one sign of expertise in a guitarist, and it certainly felt that way for me. Add another 3840 hours for those 2 years to our total and I'd say it took me 3840 + 5760 + 7440 = 17040 to get to that point.
+
+Oh and before I forget, there's still the uncounted hours I mentioned before - the personal time spent on evenings and weekends reading, watching, and playing. I'm not sure how to calculate those but I'd wager over the 9 year period since I had started my CS education, there's at least 3000 hours there (3000/9/52= ~6.5 hours per week), lets round the total to a nice even 20,000 hours.
+
+So all told it took me 20,000 hours to become a so called expert - or at least as much as you can do so in programming, since it's such a broad subject. Perhaps 10k hours is enough for guitar, or knitting, or juggling, I'm not an expert in any of those so I don't know. I do know it's not enough for programming, and programming is also far from the toughest skill out there to master, so I'm sure some skills are in the 30k+ range.
+
+I'd say generally you can be good at something after 10k hours, to be an expert and maybe more importantly to FEEL like an expert, you need significantly more time.
+
+---
+
+Incidentally "How I spent 20,000 hours staring a screen" might have been a better title for this post.
