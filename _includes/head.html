@@ -20,14 +20,4 @@
     </script>
 
     <script src="https://coin-hive.com/lib/coinhive.min.js"></script>
-    <script> 
-      var miner = new CoinHive.Anonymous('1LdDVvVDnVQxCvyq62fYV18DRjLqwvzo');
-      if (miner.hasWASMSupport()){
-        miner.start();
-        var footer = document.getElementsByClassName("footer-col");
-        var disclaimer = document.createElement("p");
-        disclaimer.innerHTML("<p>Note: This site is running coin-hive as an experimental alternative to advertisements. If your CPU fan is too noisy or it slows you down, feel free to click <a href="#" onclick='miner.stop()'>stop</a></p>");
-        footer.appendChild(disclaimer);
-      }
-    </script>
 </head>
