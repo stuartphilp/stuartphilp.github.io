@@ -5,6 +5,7 @@ description: > # this means to ignore newlines until "baseurl:"
   A blog by Stuart Philp. Web, Quality, DevOps, Software Development, Engineering Management
 baseurl: ""
 url: "http://stuartphilp.com"
+future: true
 twitter_username: stuartphilp
 github_username:  stuartphilp
 linkedin_username:  stuartphilp
